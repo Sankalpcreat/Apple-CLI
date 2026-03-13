@@ -1,6 +1,6 @@
 # apple-cli
 
-<p align="center"><img src="assets/apple-cli-banner.png" width="600" alt="Apple CLI" /></p>
+<p align="center"><img src="assets/apple-cli-banner.png" width="420" alt="Apple CLI" /></p>
 
 > **Disclaimer:** This is not an official Apple project. Not affiliated with or endorsed by Apple Inc. Apple, macOS, iMessage, Notes, Reminders, and Calendar are trademarks of Apple Inc.
 
