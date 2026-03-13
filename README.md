@@ -35,7 +35,7 @@ sudo cp target/release/apple /usr/local/bin/
 ### Cargo install
 
 ```bash
-cargo install --path .
+cargo install apple-cli
 ```
 
 Or install directly from GitHub:
