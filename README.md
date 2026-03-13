@@ -26,17 +26,25 @@ Apple CLI for macOS. Local-first automation for **Notes**, **Reminders**, **Cale
 ### From source
 
 ```bash
-git clone <your-repo-url>
-cd apple-cli
+git clone https://github.com/Sankalpcreat/Apple-CLI.git
+cd Apple-CLI
 cargo build --release
 sudo cp target/release/apple /usr/local/bin/
 ```
 
-### Local install (no sudo)
+### Cargo install
 
 ```bash
 cargo install --path .
 ```
+
+Or install directly from GitHub:
+
+```bash
+cargo install --git https://github.com/Sankalpcreat/Apple-CLI.git --bin apple
+```
+
+**Requirements:** Rust 1.85+ ([rustup.rs](https://rustup.rs))
 
 ---
 
