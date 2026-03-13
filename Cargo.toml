@@ -1,0 +1,16 @@
+[package]
+name = "apple-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Apple CLI for macOS (AppleScript-powered)"
+license = "MIT"
+
+[[bin]]
+name = "apple"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
